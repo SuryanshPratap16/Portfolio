@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #1e1e1e;
+    padding: 12px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Hero Section */
+.hero {
+    background: #4d79ff;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.highlight {
+    color: #ffe066;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 20px;
+    background: white;
+    color: #4d79ff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Sections */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Project Cards */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.project-card {
+    background: white;
+    width: 260px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: 0.2s;
+}
+
+.project-card:hover {
+    transform: scale(1.04);
+    border-color: #4d79ff;
+}
+
+.project-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-card h3 {
+    margin: 10px 0;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about-text {
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #4d79ff;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    color: #1e1e1e;
+}
+
+/* Footer */
+.footer {
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+}
